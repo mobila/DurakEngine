@@ -3,6 +3,9 @@ package com.github.mobila.durakengine;
 import java.util.Collections;
 import java.util.Stack;
 
+import com.github.mobila.durakengine.Card.Rank;
+import com.github.mobila.durakengine.Card.Suit;
+
 /**
  * This class simply represents the deck of cards as an stack. It can create a deck of 36 or 52 cards.
  * The deck is already shuffled after the creation.

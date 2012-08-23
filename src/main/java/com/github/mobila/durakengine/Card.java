@@ -1,6 +1,14 @@
 package com.github.mobila.durakengine;
 
 public class Card {
+	
+	public enum Suit {
+		HEARTS, CLUBS, DIAMONDS, SPADES
+	}
+	
+	public enum Rank {
+		TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE
+	}
 
 	private Suit suit;
 	

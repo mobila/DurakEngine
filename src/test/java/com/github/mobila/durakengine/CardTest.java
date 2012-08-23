@@ -1,5 +1,8 @@
 package com.github.mobila.durakengine;
 
+import com.github.mobila.durakengine.Card.Rank;
+import com.github.mobila.durakengine.Card.Suit;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
