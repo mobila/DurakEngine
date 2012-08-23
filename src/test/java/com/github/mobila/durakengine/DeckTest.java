@@ -8,6 +8,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.github.mobila.durakengine.Deck.NumberOfCards;
+
 public class DeckTest {
 
 	@BeforeClass
@@ -28,10 +30,10 @@ public class DeckTest {
 
 	@Test
 	public void test() {
-		Deck deck = new Deck(36);
+		Deck deck = new Deck(NumberOfCards.N36);
 		assertEquals(36, deck.size());
 		
-		deck = new Deck(52);
+		deck = new Deck(NumberOfCards.N52);
 		assertEquals(52, deck.size());
 	}
 
