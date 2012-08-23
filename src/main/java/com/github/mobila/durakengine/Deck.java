@@ -5,6 +5,7 @@ import java.util.Stack;
 
 /**
  * This class simply represents the deck of cards as an stack. It can create a deck of 36 or 52 cards.
+ * The deck is already shuffled after the creation.
  * @author mobila
  *
  */
@@ -20,6 +21,7 @@ public class Deck extends Stack<Card> {
 	public Deck(NumberOfCards number){
 		for(Suit suit : Suit.values()){
 			for(Rank rank : Rank.values()){
+				//In case of 
 				if(number.equals(NumberOfCards.N36) && Rank.SIX.compareTo(rank)>0){
 					continue;
 				} 
